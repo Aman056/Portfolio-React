@@ -6,19 +6,23 @@ export default function Home() {
     <>
       <div class="container" id="cont">
         <div class="row">
-          <div class="col-6">
+          <div class="col-8">
             <h3>Hello,</h3>
             <h4>I am,</h4>
             <h1>Aman Chauhan</h1>
             <h4>MERN Stack Developer, Software Engineer</h4>
-          </div>
+          </div>  
+        <div className="col-4" id="mainpic" ><img src="./port.gif" height={300} width={300} alt=""/> </div>
         </div>
 
+        
+        
+        </div>
 
         <div className="container" id="next-bg">
           <div className='row'>
             <div class="col-12">
-            <div className="row"><div className="col-12">  <center><img src="./uparrow.png" height={30} width={30} alt="" className='text-danger' /></center></div></div></div>
+            <div className="row"><div className="col-12"><center><img src="./uparrow.png" height={30} width={30} alt="" className='text-danger' /></center></div></div></div>
               <h5 className="bg-secondary"><h2>Exprience</h2></h5>
 
 
@@ -31,20 +35,20 @@ export default function Home() {
 
 </div>
 
-              {/* <div className="row"><div className="col-12">  <center><img src="./uparrow.png" height={30} width={30} alt="" /></center></div></div></div> */}
+
             <p className="card-text m-3"><h4>2. DUCAT IT Trainning school Noida sector-15, MERN Stack </h4> 01/08/2022 to present </p>
             <p className="card-text m-4 text-secondary">MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack.<br />
               MongoDB — document database<br />
               Express(.js) — Node.js web framework<br />
-              React(.js) — a client-side JavaScript framework<br />
-              Node(.js) — the premier JavaScript web server<br /></p>
+              React(.js) — A client-side JavaScript framework<br />
+              Node(.js) — The premier JavaScript web server<br /></p>
             <div className="card-text text-secondary m-4">MERN is one of several variations of the MEAN stack (MongoDB Express Angular Node), where the traditional Angular.js front-end framework is replaced with React.js. Other variants include MEVN (MongoDB, Express, Vue, Node), and really any front-end JavaScript framework can work.</div>
 
 
 
 
         </div>
-      </div>
+      {/* </div> */}
 
     </>
   )
